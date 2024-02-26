@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .containar {
+            background-color: black;
+            width: 600px;
+        }
+
+        .containar input {
+            border-radius: 20px;
+            padding: 4px 20px;
+            display: block;
+            width: 200px;
+            margin: auto;
+            height: 20px;
+            cursor: pointer;
+            text-align: right;
+            font-size: 20px;
+           
+        }
+
+        .containar .calculator {             
+            color: white;
+            padding: 10px 10px;
+            background-color: rgb(233, 245, 245);
+            text-align: center;
+        }
+
+        .containar .calculator button {
+            width: 60px;
+            height: 60px;
+            border-radius: 20px;
+            border: 2px solid aqua;
+            color: white;
+            background-color: black;
+            font-size: 25px;
+
+        }
+
+        .containar .calculator button:hover {
+            background-color: gray;
+            cursor: pointer;
+        }
+        .containar .calculator  #button{
+            color: green;
+        }
+        .containar .calculator  .button{
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="containar">
+        <input type="text" id="inputBox" placeholder="0">
+        <div class="row">
+            <did class="col">
+                <div class="calculator">
+                    <button id="button">AC</button>
+                    <button id="button">DEL</button>
+                    <button id="button">%</button>
+                    <button id="button">/</button>
+                </div>
+            </did>
+            <did class="col">
+                <div class="calculator">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button id="button">*</button>
+                </div>
+            </did>
+            <did class="col">
+                <div class="calculator">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button id="button">-</button>
+                </div>
+            </did>
+            <did class="col">
+                <div class="calculator">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button id="button">+</button>
+                </div>
+            </did>
+            <did class="col">
+                <div class="calculator">
+                    <button>00</button>
+                    <button>0</button>
+                    <button>.</button>
+                    <button class="button">=</button>
+                </div>
+            </did>
+        </div>
+    </div>
+
+    <script src="./creating-calculator.js"></script>
+</body>
+
+</html>
